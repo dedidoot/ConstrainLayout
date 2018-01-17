@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_hae1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="haeeeee1"
+        app:layout_constraintEnd_toStartOf="@+id/oke"
+        app:layout_constraintTop_toTopOf="@+id/oke" />
+
+    <TextView
+        android:id="@+id/text_hae2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="haeeeee2"
+        app:layout_constraintEnd_toStartOf="@+id/oke"
+        app:layout_constraintTop_toBottomOf="@+id/text_hae1" />
+
+    <TextView
+        android:id="@+id/text_hae3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="haeeeee3"
+        app:layout_constraintBottom_toBottomOf="@+id/oke"
+        app:layout_constraintLeft_toRightOf="@+id/oke"
+        app:layout_constraintTop_toTopOf="@+id/oke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/oke"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_biasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="deskripsi Syallalalaalala Bummmm bummmm buaaarrrr kedubraaaaak hancur lebyyyttttrr=ru f  feswrfsergserg serg esrg ersg esrg esr gser gserg serg ser gserg esrg "
+        app:layout_constraintTop_toBottomOf="@+id/oke" />
+
+    <ImageView
+        android:id="@+id/oke1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_biasa" />
+
+    <ImageView
+        android:id="@+id/oke2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toEndOf="@+id/oke1"
+        app:layout_constraintTop_toBottomOf="@+id/text_biasa" />
+
+    <ImageView
+        android:id="@+id/oke3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintLeft_toRightOf="@+id/oke2"
+        app:layout_constraintTop_toBottomOf="@+id/text_biasa" />
+
+    <ImageView
+        android:id="@+id/oke4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/black"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintLeft_toRightOf="@+id/oke3"
+        app:layout_constraintTop_toBottomOf="@+id/text_biasa" />
+
+    <ImageView
+        android:id="@+id/oke5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintLeft_toRightOf="@+id/oke4"
+        app:layout_constraintTop_toBottomOf="@+id/text_biasa" />
+
+
+</android.support.constraint.ConstraintLayout>
